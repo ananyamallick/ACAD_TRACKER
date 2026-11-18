@@ -1,0 +1,18 @@
+Nov 16, 2026 10:19:56 PM acadtracker.main.ExceptionTest main
+INFO: Exception handling test started.
+Nov 16, 2026 10:19:57 PM acadtracker.utils.GlobalExceptionHandler handle
+WARNING: Student with ID 99999 was not found.
+Nov 16, 2026 10:19:57 PM acadtracker.utils.GlobalExceptionHandler handle
+WARNING: Invalid application input.
+java.lang.IllegalArgumentException: Student ID must be positive.
+	at acadtracker.service.StudentService.getStudentById(StudentService.java:29)
+	at acadtracker.main.ExceptionTest.main(ExceptionTest.java:42)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Nov 16, 2026 10:19:57 PM acadtracker.utils.GlobalExceptionHandler handle
+WARNING: Email address already exists.
+Nov 16, 2026 10:19:57 PM acadtracker.main.ExceptionTest main
+INFO: Exception handling test completed.
